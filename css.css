@@ -68,7 +68,9 @@
       font-size: 12px;
   }
 
-  
+  #loader{
+      font-size: 3px;
+  }
 
   .main-content h2{
       font-size: 1.4em;
