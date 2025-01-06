@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BIA</title>
+	<link rel="icon" href="LOGO.jpg">
+    <link rel="stylesheet" href="frem.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="loader"></div>
+
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">SING UP</label>
+					<input type="text" name="txt" placeholder="Username" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>CONFIRMATION</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">SING IN</label>
+					<input type="text" name="txt" placeholder="Username" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>LOGIN</button>
+				</form>
+			</div>
+	</div>
+
+
+
+	<script>
+        var loud =document.getElementById("loader");
+        window.addEventListener("load",function(){
+            loud.style.display="none";
+        });
+    </script>
+	
+</body>
+</html>
